@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AMaze By Keister and Durmaz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_generating">State Generating</string>
+    
+    <!-- Title activity -->
+    <string name="game_title">Maze</string>
+    <string name="creator_names">by Nikki Keister and Ceyda Durmaz</string>
+    <string name="generation_options">Choose a maze</string>
+    <string name="builder_prompt">Choose a maze builder</string>
+    <string-array name="maze_builders">
+        <item>Default algorithm</item>
+        <item>From file</item>
+        <item>Prim\'s Algorithm</item>
+        <item>Aldous-Broder Algorithm</item>
+    </string-array>
+    <string name="driver_prompt">Choose a robot driver</string>
+    <string-array name="maze_drivers">
+        <item>Manual Driver</item>
+        <item>Gambler</item>
+        <item>Wall Follower</item>
+        <item>Wizard</item>
+        <item>Tremaux Algorithm</item>
+    </string-array>
+    <string name="character_prompt">Choose a character</string>
+	<string-array name="character_names">
+	    <item>Mario</item>
+	    <item>Luigi</item>
+	</string-array>
+    
+    <!-- Play activity -->
+    <string name="level_default">Level 1</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="action_toggle_persp">Toggle View</string>
+    <string name="action_toggle_solu">Toggle Solution</string>
+    <string name="action_toggle_walls">Toggle Walls</string>
+    <string name="action_toggle_pause">Toggle Pause</string>
+    <string name="battery_level">Battery Level: _____ ??</string>
+    <string name="path_length">Path Length: _____</string>
+    <string name="button_up">^</string>
+    <string name="button_down">v</string>
+    <string name="button_left">&lt;</string>
+    <string name="button_right">&gt;</string>
+    <string name="toggle_view">View</string>
+    <string name="toggle_walls">Walls</string>
+    <string name="toggle_solution">Solution</string>
+    <string name="toggle_pause">Pause</string>
+    <string name="toggle_play">Play</string>
+    <string name="battery_usage">Battery </string>
+    <string name="maze_graphics_win">Win</string>
+    <string name="maze_graphics_battery_out">Out of Battery</string>
+    <string name="maze_graphics_error">Broken</string>
+    
+    <!-- Finish activity -->
+    <string name="title_activity_finish">FinishActivity</string>
+    <string name="replay">Play again</string>
+    <string name="result">Result</string>
+
+</resources>
